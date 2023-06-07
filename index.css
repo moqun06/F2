@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0 4rem;
+}
+
+nav .logo {
+    width: 120px;
+}
+
+nav a {
+    padding-left: 3rem;
+    text-decoration: none;
+    color: hsl(240, 46%, 18%);
+    font-weight: 600;
+}
+
+button {
+    background-color: hsl(214, 88%, 47%);
+    color: white;
+    padding: 1rem 5rem;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.firstSection {
+
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 5rem 4rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: hsl(243, 87%, 12%);
+}
+
+.left h1 {
+    font-size: 45px;
+}
+
+.left p {
+    line-height: 35px;
+    font-size: 19px;
+}
+
+form {
+    display: flex;
+    gap: 2rem;
+}
+
+.secondSection {
+    align-items: start;
+}
+
+
+.secondSection .anchor {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    width: 220px;
+    gap: 10px;
+}
+
+.secondSection {
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.secondSection .testimonial {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: white;
+    width: 500px;
+    border-radius: 12px;
+}
+
+.profile {
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+.menu{
+    display: none;
+}
+
+@media  screen and (max-width: 1110px) { 
+    .navlink{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    form{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+/* REDO OTHER SECTIONS IN ORDER TO CORRECT THE RESPONSIVENESS */
+/* .third{
+    display: grid;
+    align-items: center;
+    background-color: hsl(240, 25%, 39%);
+    gap: 5rem;
+    padding: 5rem 4rem;
+    color: white;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.mark{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    
+    background-color:hsl(243, 87%, 12%) ;
+    padding: 5rem 4rem;
+    color: white;
+    
+    
+}
+.phone{
+    display: flex;
+    color: white;
+    gap: 2rem;
+    align-items: center;
+}
+ul{
+    color: white;
+    list-style-type: none;
+    
+}
+.footersection{
+    display:flex ;
+    gap: 19rem;
+    padding-top: 2rem;
+    
+}
+li{
+    padding-bottom: 2rem;
+    font-size: 18px;
+}
+.fa-brands{
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+} */
