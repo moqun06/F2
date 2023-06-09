@@ -112,24 +112,64 @@ form {
     border-radius: 50%;
 
 }
-.menu{
+
+.menu {
     display: none;
 }
 
-@media  screen and (max-width: 1110px) { 
-    .navlink{
+.image {
+    width: 900px;
+}
+
+.firstinput {
+    width: 400px;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1110px) {}
+    nav {
+        padding: 0 1rem;
+    }
+
+
+    .navlink {
         display: none;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
-    .container{
+
+    .container {
         flex-direction: column-reverse;
     }
-    form{
+
+    form {
         flex-direction: column;
     }
-    
+
+    .image {
+        width: 300px;
+    }
+
+    .left h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .firstinput{
+        width: 100%;
+    }
+    .container{
+        padding: 5rem 1rem;
+    }
+
+button{
+    width: 100%;
+}
+.left p{
+text-align: center;
+line-height: 27px;
 }
 
 
